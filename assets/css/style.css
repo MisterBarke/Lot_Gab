@@ -746,9 +746,10 @@ section {
 }
 
 .about .video-box {
-  background: url("../img/about.png") center center no-repeat;
-  background-size: contain;
+  background: url("../img/7.png") center center no-repeat;
+  background-size: 150%;
   min-height: 300px;
+  margin-left: 3rem;
 }
 
 .about .play-btn {
@@ -762,18 +763,8 @@ section {
   top: calc(60% - 45px);
   overflow: hidden;
 }
-@media screen and (min-width:765px ) {
-  .about .play-btn {
-    top: calc(65% - 45px);
-   
-  }
-}
-@media screen and (min-width:1000px ) {
-  .about .play-btn {
-    top: calc(40% - 45px);
-   
-  }
-}
+
+
 
 
 .about .play-btn::after {
